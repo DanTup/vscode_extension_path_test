@@ -26,7 +26,7 @@
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
         "watch": "tsc -watch -p ./",
-        "test": "echo $PATH && npm run compile && node ./out/test/runTest.js"
+        "test": "echo Before tests && echo $PATH && npm run compile && node ./out/test/runTest.js"
     },
     "devDependencies": {
         "@types/mocha": "^5.2.7",
